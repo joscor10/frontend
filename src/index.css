@@ -1,0 +1,47 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+
+.contenido {
+  padding:20px;
+  margin: 30px 0;
+ 
+  background-color: #c0c0c0;
+  padding: 30px;
+  border-radius: 20px;
+  align-items: center;
+ 
+}
+
+.conte{
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  
+}
+
+@media(max-width:992px){
+  .conte{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    
+  }
+}
+
+@media(max-width:640px){
+  .conte{
+    display: grid;
+    grid-template-columns: repeat(1, 400px);
+    
+  }
+}
+.card{
+  
+  margin: 2rem;
+}
+
+
+
